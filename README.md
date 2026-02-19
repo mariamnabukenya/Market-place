@@ -78,6 +78,8 @@ Backend (Django + DRF)
    - `python manage.py migrate`
 6. Create a superuser for admin access:
    - `python manage.py createsuperuser`
+To populate the database with initial users making sure the databse is already running:
+ -'python manage.py seed_demo_users'
 7. Start the development server:
    - `python manage.py runserver`
 
